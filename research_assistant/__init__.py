@@ -1,0 +1,1 @@
+"""Shared contracts for the multi-agent research assistant."""

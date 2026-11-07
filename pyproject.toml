@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=59"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "multi-agent-research-assistant"
+version = "0.1.0"
+description = "A citation-first multi-agent research assistant"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.optional-dependencies]
+ingest = ["pymupdf4llm==1.28.2", "docling>=2,<3", "tiktoken>=0.9,<1"]
+
+[tool.setuptools]
+packages = ["research_assistant"]
